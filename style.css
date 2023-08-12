@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(3, 3, 52);
+    font-family: 'poppins' , sans-serif;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(4, 4, 95);
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 24px;
+    color: white;
+}
+
+nav ul li A{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li A:hover{
+    color: rgb(147, 68, 220);
+    transition: 0.4s all ease-out;
+    -webkit-transition: 0.4s all ease-out;
+    -moz-transition: 0.4s all ease-out;
+    -ms-transition: 0.4s all ease-out;
+    -o-transition: 0.4s all ease-out;
+}
+
+#element{
+    color: rgb(147, 68, 220);
+}
+
+.left{
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.first-sec{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    align-items: center;
+}
+
+.dev-right img{
+    width: 35%;
+    margin: 100px;
+}
+
+.clr-purple{
+    color:rgb(147, 68, 220);
+}
+
+.dev-left{
+    width: 50%;
+    font-size: 3rem;
+    color: white;
+    padding-left: 5rem;
+}
+
+.dev-right{
+    width: 50%;
+}
+
+main hr {
+    border: 0;
+    height: 2px;
+    margin: 24px 60px;
+    background: rgb(48 42 159);
+}
+
+
+.second-sec{
+    max-width: 80vw;
+    margin: auto;
+    height: 30rem;
+}
+
+
+.seecond-sec h1{
+    font-size: 1.9rem;
+}
+
+
+.text-gray{
+    color: gray;
+}
+
+
+.second-sec .box{
+     width: 80vw;
+     height: 3px;
+     background-color: white;
+     margin: 80px 0;
+     display: flex;
+
+}
+
+
+.vir-line{
+    height: 40px;
+    width: 2px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.img-top{
+    width: 45px;
+    top: -50px;
+    position: relative;
+    left: -22px;
+}
+
+.vir-tittle{
+    width: 120px;
+    position: relative;
+    top: 10px;
+}
+
+.vir-desc{
+    font-size: 9px;
+    color: gray;
+    position: relative;
+    top: 20px;
+    width: 140px;
+}
+
+
+footer{
+    background-color: #020322;
+    height: 20rem;
+}
+
+footer center{
+    padding-top: 4rem;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 50px;
+}
+
+.footer-second ul li{
+    list-style: none;
+}
+
+.footer-second ul li a{
+    text-decoration: none;
+    color: white;
+    padding-top: 6px;
+}
